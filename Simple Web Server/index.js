@@ -34,7 +34,7 @@ http.createServer( (req,res) => {
         filestream.pipe(res);
     }else if(stats.isDirectory()){
         res.writeHead(302,{
-            'Location':'file.html'
+            'Location':'home.html'
         });
         res.end();
     }else{
