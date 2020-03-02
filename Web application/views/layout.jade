@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title Coding Dudes &middot; Bootstrap
+    // Bootstrap core CSS
+    link(href='/stylesheets/bootstrap.css', rel='stylesheet')
+  |   
+  body
+    nav.navbar.navbar-expand-md.navbar-dark.bg-dark
+      a.navbar-brand(href='/') Coding Dudes
+      |         
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExampleDefault', aria-controls='navbarsExampleDefault', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      |       
+      |         
+      #navbarsExampleDefault.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='/') Home
+          |             
+          li.nav-item
+            a.nav-link(href='/about') About
+          |             
+          li.nav-item
+            a.nav-link(href='/contact') Contacts
+    main(role='main')
+    .container
+     block content
+     hr
+    footer.container
+      p(class='text-center') &copy; Company 2017-2019
