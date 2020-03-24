@@ -1,0 +1,15 @@
+{
+  "name": "user-login-system",
+  "version": "1.0.0",
+  "description": "Web application with user login options",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "passport"
+  ],
+  "author": "Sharmaprateek52",
+  "license": "ISC"
+}
